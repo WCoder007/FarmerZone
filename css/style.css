@@ -15,11 +15,22 @@ figure,
 footer,
 header,
 hgroup,
-nav,
 section,
 summary {
   display: block; }
-
+nav {
+  display: block;
+  justify-content: space-between;
+  align-items:center;
+  height:60px;
+  background-color:#ffffff;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+  padding:0px 5%;
+  }
+nav ul li{
+  display: block;
+  color: rgb(236, 16, 34); 
+    }
 audio,
 canvas,
 video {
@@ -33,7 +44,7 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: #FFF;
+  background: rgb(212, 220, 226);
   color: #000;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
