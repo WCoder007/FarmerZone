@@ -63,12 +63,6 @@ h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-.page-title {
-  font-size: 2em;
-  font-weight:900;
-  margin: 0.83em 0;
-  color: #033D39; }
-
 h3 {
   font-size: 1.17em;
   margin: 1em 0; }
@@ -120,7 +114,6 @@ q:after {
   content: none; }
 
 small {
-  color: #000;
   font-size: 80%; }
 
 sub,
@@ -1408,11 +1401,13 @@ form input[type="submit"], form button, form input[type="reset"] {
   .page-head .page-title {
     font-size: 60px;
     font-size: 4em;
-    font-weight: 300;
-    margin: 0 0 10px; }
+    font-weight:normal;
+    margin: 0 0 10px;
+    color: #033D39; }
   .page-head small {
     font-size: 18px;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    color: #000; }
 
 .fullwidth-block {
   padding: 50px 0; }
@@ -1537,15 +1532,15 @@ form input[type="submit"], form button, form input[type="reset"] {
   padding: 1rem;
   margin-bottom: 30px; }
   .team .team-image {
-    width: 160px;
-    height: 160px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 10px; }
   .team .team-name {
     font-size: 16px;
-    font-size: 1.2em;
-    font-weight: 400; }
+    font-size: 1.4em;
+    font-weight: 500; }
   .team .social-links a {
     background: white;
     border: none;
@@ -1762,13 +1757,13 @@ figure {
 }
 
 .scroll {
-  width: 49%; 
+  width: 100%; 
   display: inline-block;
 }
 
 .scroll .section-title{
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 500;
   text-align: center;
 }
 
