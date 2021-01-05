@@ -20,6 +20,10 @@ section,
 summary {
   display: block; }
 
+html, body{
+  overflow-x: hidden;
+}
+
 audio,
 canvas,
 video {
@@ -1396,18 +1400,20 @@ form input[type="submit"], form button, form input[type="reset"] {
 .page-head {
   background-size: cover;
   padding: 50px 0;
-  text-align: center;
+  text-align: left;
   color: white; }
   .page-head .page-title {
     font-size: 60px;
     font-size: 4em;
     font-weight:normal;
     margin: 0 0 10px;
-    color: #033D39; }
+    color: #033D39;
+    text-align: left; }
   .page-head small {
     font-size: 18px;
     font-size: 1.2em;
-    color: #000; }
+    color: #000;
+    text-align: left; }
 
 .fullwidth-block {
   padding: 50px 0; }
@@ -1821,3 +1827,37 @@ figure {
     border-bottom: 1px solid #edf2f4; }
     .arrow-list.has-border li:last-child {
       border-bottom: none; }
+
+#portfolio {
+  background-color: #f5f7f8; }
+  #portfolio h2 {
+    padding-bottom: 1.25em; }
+
+@media screen and (min-width: 768px) {
+  .portfolio-projects {
+    margin-top: 0.625em; } }
+.portfolio-projects--title {
+  margin-top: 0.9375em; }
+  @media screen and (min-width: 768px) {
+    .portfolio-projects--title {
+      margin-top: 20%; } }
+  @media screen and (min-width: 1200px) {
+    .portfolio-projects--title {
+      margin-top: 5%; } }
+@media screen and (min-width: 768px) {
+  .portfolio-projects--desc {
+    margin-top: 10%;
+    margin-bottom: 10%; } }
+.portfolio-projects--btn {
+  background: transparent;
+  color: #07374a;
+  border: 1px solid #07374a;
+  border-radius: 5px;
+  margin-bottom: 1.25em; }
+  .portfolio-projects--btn:hover {
+    background: #07374a;
+    color: #f0f0e6; }
+.portfolio-projects--image {
+  margin-bottom: 1.875em;
+  padding-top: 5%; }
+
