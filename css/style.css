@@ -21,7 +21,7 @@ summary {
   display: block; }
 
 html, body{
-  overflow-x: hidden;
+  overflow-x:important;
 }
 
 audio,
@@ -1849,7 +1849,7 @@ figure {
     margin-top: 10%;
     margin-bottom: 10%; } }
 .portfolio-projects--btn {
-  background: transparent;
+  background:lightcyan;
   color: #07374a;
   border: 1px solid #07374a;
   border-radius: 5px;
