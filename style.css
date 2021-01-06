@@ -1720,9 +1720,9 @@ figure {
 .widget {
   margin-bottom: 30px; }
   .widget .widget-title {
-    font-size: 19px;
+    font-size: 20px;
     font-size: 1.2666666667em;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px; }
   .widget address {
     margin: 20px 0; }
