@@ -90,7 +90,6 @@ a[data-toggle="collapse"] {
 }
 
 #wrapper {
-    display: flex;
     width: 100%;
     align-items: stretch
 }
@@ -100,7 +99,3 @@ a[data-toggle="collapse"] {
     margin-left: -250px;
 }
 
-.main-content
-{
-    margin-left: 90px;
-}
