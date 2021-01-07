@@ -1746,7 +1746,8 @@ figure {
  * Footer Styles
  */
 .site-footer {
-  padding: 50px 0; }
+  padding: 50px 0;
+  }
 
 .widget {
   margin-bottom: 30px; }
