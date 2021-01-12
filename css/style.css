@@ -1873,11 +1873,13 @@ figure {
   margin-bottom: 1.875em;
   padding-top: 5%; }
  
-.img-me{
+img.img-me{
   width: 150px;
     height: 150px;
     display: inline-block;
     margin-bottom: 10px; 
+    display: block;
+    border-radius: 5px; 
 }
 
 
