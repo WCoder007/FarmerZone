@@ -1880,6 +1880,8 @@ img.img-me{
     margin-bottom: 10px; 
     display: block;
     border-radius: 5px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
