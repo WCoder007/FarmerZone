@@ -1872,4 +1872,12 @@ figure {
 .portfolio-projects--image {
   margin-bottom: 1.875em;
   padding-top: 5%; }
+ 
+.img-me{
+  width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-bottom: 10px; 
+}
+
 
