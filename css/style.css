@@ -1372,7 +1372,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     .main-navigation .menu .menu-item {
       float: left; }
       .main-navigation .menu .menu-item.home a {
-        /*padding: 25px 30px 31px; */
+        padding: 25px 30px 31px;
       }
       .main-navigation .menu .menu-item a {
         font-size: 13px;
@@ -1885,18 +1885,25 @@ figure {
  * Footer Styles
  */
 .site-footer {
-  padding: 50px 0;
+  margin: 10px;
+  padding: 10px 0;
+  background-color: #E7EDF1;
+  font-size: 16px;
   }
 
 .widget {
-  margin-bottom: 30px; }
+  margin-bottom: 20px;
+  text-align: left; }
   .widget .widget-title {
-    font-size: 19px;
+    font-size: 17px;
     font-size: 1.2666666667em;
     font-weight: 300;
-    margin-bottom: 20px; }
+    color:#58585A;
+    margin-bottom: 10px; }
   .widget address {
-    margin: 20px 0; }
+    margin: 1px 0; 
+    color: #58585A;
+  }
 .scrollable-window{
   overflow: auto;
   height:25rem;
