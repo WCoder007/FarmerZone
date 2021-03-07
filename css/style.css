@@ -1372,7 +1372,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     .main-navigation .menu .menu-item {
       float: left; }
       .main-navigation .menu .menu-item.home a {
-        padding: 25px 30px 31px;
+        padding: 20px 30px 20px;
       }
       .main-navigation .menu .menu-item a {
         font-size: 13px;
