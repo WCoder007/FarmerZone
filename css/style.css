@@ -1662,7 +1662,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   padding: 1rem;
   margin-bottom: 30px;
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   padding-top: 30px;
   padding-bottom: 30px;
   width: 100%; }
